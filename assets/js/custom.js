@@ -69,12 +69,17 @@
 	}
 
 	//category page header
-	const header = document.querySelector(".product-cat__header");
-	if (header) {
-	  const parentNode = document.querySelector("body");
+	const cat = document.querySelector("#category");
 
-	  const wrapperSibling = document.querySelector("#wrapper");
-	  parentNode.insertBefore(header, wrapperSibling);
+	if (cat) {
+	  console.log(cat);
+	  const header = document.querySelector("#js-product-list-header");
+	  if (header) {
+	    const parentNode = document.querySelector("main");
+
+	    const wrapperSibling = document.querySelector("#wrapper");
+	    parentNode.insertBefore(header, wrapperSibling);
+	  }
 	}
 
 /***/ }),
