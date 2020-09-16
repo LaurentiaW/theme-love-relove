@@ -1,11 +1,16 @@
 @import "../base/variables.scss";
 
 #category {
-  .product-cat__header {
+  #js-product-list-header {
+    margin-top: 1.563rem;
+  }
+
+  .block-category {
     height: 250px;
     position: relative;
+    box-shadow: none;
 
-    &--img {
+    .product-cat__header--img {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;

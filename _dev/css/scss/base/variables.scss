@@ -12,6 +12,7 @@
   --form-max-width: 600px;
   --bg-clr: #fff;
   --card-bg: var(--bg-clr);
+  --border: #f1f1f1;
 }
 
 $main-clr: var(--main-clr);
@@ -23,6 +24,7 @@ $white: var(--white);
 $display-font: "Times New Roman", Times, serif;
 $body-font: "Montserrat", sans-serif;
 $gutter: 20px;
+$border: var(--border);
 
 $gray-dark: #272635;
 $gray-darker: #232323;
