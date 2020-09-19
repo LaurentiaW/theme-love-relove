@@ -65,12 +65,15 @@ blockquote {
   margin: 0 0 1rem;
 }
 a {
-  color: inherit;
+  color: $main-clr;
   text-decoration: none;
+  font-weight: 700;
+  transition: 0.3s all ease;
+  cursor: pointer;
 }
 a:focus,
 a:hover {
-  color: #208094;
+  color: $main-clr;
   text-decoration: underline;
 }
 a:focus {
@@ -447,20 +450,14 @@ p {
   text-align: center;
 }
 
+.txt-right {
+  text-align: right;
+}
 *,
 *:before,
 *:after {
   box-sizing: border-box;
   margin: 0;
-}
-
-a,
-a:active,
-a:visited {
-  color: $comp-clr;
-  text-decoration: none;
-  transition: 0.3s all ease;
-  cursor: pointer;
 }
 
 img {
@@ -491,6 +488,7 @@ label {
   letter-spacing: 0.1em;
   margin-top: 20px;
   display: inline-block;
+  font-family: $display-font;
 }
 
 input {

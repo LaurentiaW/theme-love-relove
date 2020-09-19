@@ -1,1 +1,15 @@
 @import "../base/variables.scss";
+
+#footer {
+  border-top: 1px solid $border;
+
+  .footer-container,
+  .footer-copyright-container {
+    box-shadow: none;
+    border-top: 1px solid $border;
+
+    .display-font {
+      font-weight: 700;
+    }
+  }
+}

@@ -32,13 +32,12 @@
         <h4 class="modal-title h6 text-sm-center" id="myModalLabel"><i class="material-icons rtl-no-flip">&#xE876;</i>{l s='Product successfully added to your shopping cart' d='Shop.Theme.Checkout'}</h4>
       </div>
       <div class="modal-body">
-        <div class="row">
           <div class="col-md-5 divide-right">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-3">
                 <img class="product-image" src="{$product.cover.medium.url}" alt="{$product.cover.legend}" title="{$product.cover.legend}" itemprop="image">
               </div>
-              <div class="col-md-6">
+              <div class="col-md-9">
                 <h6 class="h6 product-name">{$product.name}</h6>
                 <p class="product-price">{$product.price}</p>
                 {hook h='displayProductPriceBlock' product=$product type="unit_price"}
@@ -50,7 +49,7 @@
             </div>
           </div>
           <div class="col-md-7">
-            <div class="cart-content">
+            <div class="cart-content txt-right">
               {if $cart.products_count > 1}
                 <p class="cart-products-count">{l s='There are %products_count% items in your cart.' sprintf=['%products_count%' => $cart.products_count] d='Shop.Theme.Checkout'}</p>
               {else}
@@ -76,7 +75,6 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
   </div>

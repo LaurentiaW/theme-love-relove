@@ -41,7 +41,11 @@
         {hook h='displayFooterAfter'}
       {/block}
     </div>
-    <div class="row">
+   
+  </div>
+</div>
+<div class="footer-copyright-container">
+  <div class="row">
       <div class="col-md-12">
         <p class="text-sm-center display-font">
           {block name='copyright_link'}
@@ -53,5 +57,4 @@
         </p>
       </div>
     </div>
-  </div>
 </div>

@@ -1,0 +1,121 @@
+@import "../base/variables.scss";
+#blockcart-modal {
+  color: $black;
+
+  .modal-header {
+    background: $white;
+
+    .close {
+      opacity: 1;
+
+      .material-icons {
+        color: $black;
+      }
+    }
+  }
+
+  .modal-body {
+    background: $white;
+    padding: 3.125rem 1.875rem;
+
+    .divide-right span {
+      display: inline-block;
+      margin-bottom: 0.3125rem;
+
+      @media (max-width: $medium-vw) {
+        display: block;
+        padding: 0 0.5rem;
+      }
+    }
+  }
+  .modal-dialog {
+    max-width: 1140px;
+    width: 100%;
+  }
+
+  .product-image {
+    width: 100%;
+    max-width: 9.375rem;
+    display: block;
+    margin: 0 0 0 auto;
+  }
+
+  .modal-title {
+    color: $main-clr;
+    font-size: 1rem;
+    font-weight: 400;
+
+    i.material-icons {
+      margin-right: 1.875rem;
+      color: #4cbb6c;
+    }
+  }
+
+  .product-name {
+    color: inherit;
+    font-size: 1.125rem;
+    @media (max-width: $medium-vw) {
+      padding: 0 0.5rem;
+    }
+  }
+
+  .product-price {
+    color: $black;
+    display: block;
+    @media (max-width: $medium-vw) {
+      padding: 0 0.5rem;
+    }
+  }
+
+  .cart-content {
+    padding-left: 2.5rem;
+    p {
+      color: $black;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 0 0.5rem;
+
+      &.product-total {
+        background-color: $border;
+        padding: 0.5rem;
+      }
+
+      &.cart-products-count {
+        font-size: 1rem;
+        color: $main-clr;
+        font-weight: 600;
+      }
+
+      &.product-tax {
+        display: inherit;
+        font-size: 0.875rem;
+      }
+
+      .label,
+      .value {
+        font-weight: 600;
+      }
+    }
+    .cart-content-btn {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+
+      button {
+        margin-right: 0.9rem;
+      }
+
+      .btn {
+        white-space: inherit;
+      }
+    }
+  }
+
+  .divide-right {
+    border-right: 1px solid $border;
+  }
+}

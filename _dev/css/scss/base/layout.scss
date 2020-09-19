@@ -51,6 +51,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap: 12px;
   grid-row-gap: 12px;
+
+  &.form-group {
+    align-items: baseline;
+  }
 }
 .row:after {
   content: "";
@@ -1048,8 +1052,9 @@
 #main .page-footer {
   margin-bottom: 1.563rem;
 }
-
-#content-wrapper:not(.left-column),
-#custom-text {
-  grid-column: span 12;
+.row {
+  > #content-wrapper:not(.left-column),
+  > #custom-text {
+    grid-column: span 12;
+  }
 }

@@ -11,9 +11,9 @@ button,
     transition: 0.3s all ease;
   }
   &:hover {
-    background: $comp-clr;
-    border: 1px solid $comp-clr;
-    color: $main-clr;
+    background: $white;
+    border: 1px solid $black;
+    color: $black;
   }
 
   &.btn-unstyle {
@@ -815,4 +815,10 @@ input[type="submit"].btn-block {
   position: absolute;
   clip: rect(0, 0, 0, 0);
   pointer-events: none;
+}
+
+.cart-detailed-actions {
+  a.btn.btn-primary {
+    color: $white;
+  }
 }
