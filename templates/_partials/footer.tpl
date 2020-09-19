@@ -43,11 +43,12 @@
     </div>
     <div class="row">
       <div class="col-md-12">
-        <p class="text-sm-center">
+        <p class="text-sm-center display-font">
           {block name='copyright_link'}
-            <a class="_blank" href="https://www.prestashop.com" target="_blank" rel="nofollow">
-              {l s='%copyright% %year% - Ecommerce software by %prestashop%' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
-            </a>
+            {* <a class="_blank" href="https://www.prestashop.com" target="_blank" rel="nofollow"> *}
+              {l s='%copyright% %year%' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'} 
+             Vandrunick<br/><span class="small">Love&Relove</span>
+            {* </a> *}
           {/block}
         </p>
       </div>

@@ -52,3 +52,7 @@
     color: $brand-primary;
   }
 }
+
+#products .products {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+}

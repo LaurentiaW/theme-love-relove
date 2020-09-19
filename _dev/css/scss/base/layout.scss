@@ -995,7 +995,7 @@
 }
 
 #wrapper {
-  border-top: 2px solid var(--border);
+  // border-top: 2px solid var(--border);
   padding-top: 1.563rem;
 }
 #wrapper .banner {
@@ -1007,7 +1007,6 @@
 }
 #wrapper .breadcrumb {
   background: transparent;
-  padding: 0;
 }
 #wrapper .breadcrumb[data-depth="1"] {
   display: none;
@@ -1048,4 +1047,9 @@
 }
 #main .page-footer {
   margin-bottom: 1.563rem;
+}
+
+#content-wrapper:not(.left-column),
+#custom-text {
+  grid-column: span 12;
 }

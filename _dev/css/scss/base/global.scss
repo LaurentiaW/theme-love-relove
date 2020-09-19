@@ -234,6 +234,11 @@ h6 {
   font-size: 1.25rem;
   font-weight: 400;
 }
+
+.display-font {
+  font-family: $display-font;
+  text-transform: uppercase;
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;

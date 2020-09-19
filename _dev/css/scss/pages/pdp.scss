@@ -7,3 +7,30 @@
 .scroll-box-arrows.scroll {
   display: none;
 }
+#product {
+  .page-content {
+    .images-container {
+      .small-images {
+        .product-images {
+          display: flex;
+          @media (max-width: $large-vw) {
+            height: 60px;
+          }
+          height: 100px;
+          .thumb-container {
+            display: contents;
+          }
+          img {
+            height: 100%;
+            width: auto;
+            opacity: 0.75;
+
+            &.selected {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+}

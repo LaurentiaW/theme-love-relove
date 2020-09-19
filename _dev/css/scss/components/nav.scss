@@ -13,7 +13,7 @@
 
   .header-top {
     padding-bottom: 0;
-    border-bottom: 2px solid $border;
+    border-bottom: 1px solid $border;
     .container {
       padding: 1rem 0;
     }
@@ -54,7 +54,7 @@
     }
   }
 
-  &.main-header {
+  .main-header {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
