@@ -13,7 +13,7 @@ button,
   &:hover {
     background: $white;
     border: 1px solid $black;
-    color: $black;
+    color: $black !important;
   }
 
   &.btn-unstyle {
@@ -32,6 +32,12 @@ button,
   }
 }
 
+.input-group-btn {
+  .btn.btn-default {
+    @extend .btn-primary;
+    height: 38px;
+  }
+}
 //add to cart
 .product-add-to-cart {
   .input-group {

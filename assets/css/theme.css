@@ -5561,12 +5561,12 @@ body#checkout #footer {
 .instagram {
   background-image: url(../css/0266b05265f317a7409560b751cd61e8.svg);
 }
-.footer-container {
+/* .footer-container {
   margin-top: 1.25rem;
   padding-top: 1.25rem;
   overflow: hidden;
   box-shadow: 2px 2px 11px 0 rgba(0, 0, 0, 0.3);
-}
+} */
 .footer-container li {
   margin-bottom: 0.3125rem;
 }

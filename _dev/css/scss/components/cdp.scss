@@ -6,19 +6,25 @@
   }
 
   .block-category {
-    height: 250px;
+    height: 100px;
     position: relative;
     box-shadow: none;
 
+    @media screen and (min-width: $medium-vw) {
+      height: 250px;
+    }
+
     .product-cat__header--img {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-      position: absolute;
-      height: 100%;
-      width: 100%;
-      opacity: 0.75;
+      @media screen and (min-width: $medium-vw) {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        opacity: 0.75;
+      }
     }
   }
 

@@ -1,0 +1,43 @@
+.top-menu {
+  [id^="top_sub_menu"] {
+    width: 100vw;
+    transform: translateX(calc((1123px - 100vw) / 2));
+  }
+
+  .sub-menu {
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-left: 0;
+    min-width: unset;
+
+    ul[data-depth="1"] {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+
+      @media (min-width: 576px) {
+        width: 540px;
+        max-width: 100%;
+      }
+      @media (min-width: 768px) {
+        width: 720px;
+        max-width: 100%;
+      }
+
+      @media (min-width: 992px) {
+        width: 960px;
+        max-width: 100%;
+      }
+
+      @media (min-width: 1200px) {
+        width: 1140px;
+        max-width: 100%;
+      }
+      > li {
+        float: none;
+        margin: 0;
+      }
+    }
+  }
+}

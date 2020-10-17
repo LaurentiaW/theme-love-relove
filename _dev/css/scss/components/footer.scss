@@ -3,13 +3,31 @@
 #footer {
   border-top: 1px solid $border;
 
-  .footer-container,
+  // .footer-container,
   .footer-copyright-container {
     box-shadow: none;
     border-top: 1px solid $border;
 
+    .footer-copyright-links {
+      margin: 0;
+      padding: 1rem 0;
+      background: $border;
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0;
+      }
+      li a {
+        font-size: small;
+        font-weight: 400;
+        color: $black;
+      }
+    }
+
     .display-font {
       font-weight: 700;
+      margin: 0 auto;
     }
   }
 }

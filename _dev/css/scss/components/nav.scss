@@ -26,8 +26,12 @@
 
       .position-static {
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
+        padding-left: 0;
+
+        #_desktop_top_menu {
+          padding-left: 0;
+        }
       }
 
       #search_widget {
@@ -43,12 +47,18 @@
     }
 
     #top-menu {
-      margin-top: 1rem;
+      margin: 1rem 0 0;
     }
 
     #_desktop_logo {
+      background: $main-clr;
+
+      a {
+        display: block;
+        text-align: center;
+      }
       svg {
-        fill: $black;
+        fill: $white;
         height: 80px;
       }
     }
@@ -94,9 +104,6 @@
         padding-top: 0.5rem;
         justify-content: space-between;
         position: relative;
-        #menu-icon {
-          padding-left: 15px;
-        }
 
         #_mobile_cart {
           position: absolute;
@@ -155,6 +162,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-weight: 700;
   }
 }
 

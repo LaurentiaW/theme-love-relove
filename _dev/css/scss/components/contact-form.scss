@@ -1,0 +1,19 @@
+.contact-form {
+  .form-group.row {
+    align-items: end;
+    .offset-md-3 {
+      grid-column: 4 / span 9;
+      padding-left: 15px;
+      margin-left: 0;
+    }
+  }
+}
+
+.contact-rich {
+  .block {
+    .icon {
+      float: none;
+      color: $main-clr;
+    }
+  }
+}

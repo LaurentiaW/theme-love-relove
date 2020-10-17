@@ -65,9 +65,9 @@ blockquote {
   margin: 0 0 1rem;
 }
 a {
-  color: $main-clr;
+  color: $comp-clr;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
   transition: 0.3s all ease;
   cursor: pointer;
 }
@@ -485,10 +485,9 @@ label {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
-  letter-spacing: 0.1em;
   margin-top: 20px;
   display: inline-block;
-  font-family: $display-font;
+  letter-spacing: 0.1px;
 }
 
 input {

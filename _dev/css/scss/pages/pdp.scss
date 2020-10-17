@@ -13,10 +13,8 @@
       .small-images {
         .product-images {
           display: flex;
-          @media (max-width: $large-vw) {
-            height: 60px;
-          }
-          height: 100px;
+          flex-wrap: wrap;
+
           .thumb-container {
             display: contents;
           }
@@ -24,7 +22,10 @@
             height: 100%;
             width: auto;
             opacity: 0.75;
-
+            @media (max-width: $large-vw) {
+              height: 60px;
+            }
+            height: 100px;
             &.selected {
               opacity: 1;
             }
@@ -33,4 +34,8 @@
       }
     }
   }
+}
+
+#product-availability {
+  display: none;
 }
