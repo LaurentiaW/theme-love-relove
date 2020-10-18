@@ -1902,6 +1902,72 @@ a.text-gray-dark:hover {
   font-feature-settings: "liga";
 }
 
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?uspdib");
+  src: url("../fonts/icomoon.eot?uspdib#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?uspdib") format("truetype"),
+    url("../fonts/icomoon.woff?uspdib") format("woff"),
+    url("../fonts/icomoon.svg?uspdib#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: 700;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-book:before {
+  content: "\e900";
+}
+.icon-gift:before {
+  content: "\e901";
+}
+.icon-1899:before {
+  content: "\e902";
+}
+.icon-checkout:before {
+  content: "\e903";
+}
+.icon-handcraft:before {
+  content: "\e904";
+}
+.icon-pincushion:before {
+  content: "\e905";
+}
+.icon-prints:before {
+  content: "\e906";
+}
+.icon-quality:before {
+  content: "\e907";
+}
+.icon-scissors:before {
+  content: "\e908";
+}
+.icon-story:before {
+  content: "\e909";
+}
+.icon-thread:before {
+  content: "\e90a";
+}
+.icon-till:before {
+  content: "\e90b";
+}
+
 .btn-primary,
 .btn-secondary,
 .btn-tertiary {

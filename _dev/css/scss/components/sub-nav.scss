@@ -1,7 +1,9 @@
 .top-menu {
   [id^="top_sub_menu"] {
-    width: 100vw;
-    transform: translateX(calc((1123px - 100vw) / 2));
+    @media (min-width: 768px) {
+      width: 100vw;
+      transform: translateX(calc((1123px - 100vw) / 2));
+    }
   }
 
   .sub-menu {
